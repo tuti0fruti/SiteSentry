@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;
+
+    min-width: 804px;
+    max-width: 1359px;
+
+    
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+}
+
+header, main {
+    width: 100%; 
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    transition: 0.3s;
+}
+header h1:hover {
+    opacity: 0.5; 
+}
+
+main {
+    padding: 2rem;
+    display: flex; 
+    flex-direction: column;
+}
+
+.container {
+    display: flex; 
+    align-items: center; 
+}
+
+.photo {
+    width: 300px;
+    height: 200px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin: 1rem auto; 
+}
+
+.info {
+    margin-left: 2rem; 
+    text-align: center;
+}
+
+.contacts {
+    margin-top: 2rem; 
+    text-align: left; 
+    width: 30%; 
+    float: right; 
+}
